@@ -5,6 +5,10 @@ Everyday numerous issues are reported and the implementation of a prioritizing s
 
 This project uses Apache NiFi and Kafka to extract and process new reports from SeeClickFix API, assigns the reports a priority level using OpenAI API, stores the data in ElasticSearch and offers a visualization Dashboard in Kibana.
 
+## Data pipeline
+
+![data_pipeline](https://i.imgur.com/css4m4r.png)
+
 ## Kibana Dashboard
 
 ![kibana_dashboard](https://i.imgur.com/0aakdY0.png)
